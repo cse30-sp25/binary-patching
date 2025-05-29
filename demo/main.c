@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
     }
     int x = atoi(argv[1]);
     int y = atoi(argv[2]);
-    int z = func2(x, y);
+    int z = func1(x, y);
     printf("f(x,y) = %d\n", z);
     return EXIT_SUCCESS;
 }
